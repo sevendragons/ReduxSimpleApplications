@@ -1,0 +1,89 @@
+ @import url('https://fonts.googleapis.com/css?family=Cabin');
+ .containers{
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+ }
+.containers{
+  margin:16px auto;
+
+}
+.search-bar{
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input{
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 68px;
+
+}
+
+.video-detail .details{
+  margin: 12px 12px;
+  padding:12px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 2px 3px black;
+  border-radius: 4px;
+}
+
+.list-group-item{
+  cursor: pointer;
+}
+
+.list-group-item:hover{
+  background-color: #eee;
+}
+
+.videoFrame{
+  display: flex;
+  justify-content: center;
+  margin: 3px 16px;
+}
+ul{
+  margin: 0 12px;
+}
+.bookList, .bookDetail{
+  margin: 1rem;
+}
+.btn{
+  margin-left: 16px;
+}
+.inputWeather{
+  margin-left: 16px;
+}
+td, th{
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+svg{
+  height: 168px;
+}
+.Gmap, .Gmap > div {
+  height: 200px;
+  width: 200px;
+}
+@media screen and (min-width: 1000px){
+  .containers{
+    max-width: 1200px;
+  }
+  .gridVideo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 12px;
+  }
+  .video-detail .details{
+    margin: 12px 0px;
+  }
+  .book{
+    display: flex;
+    flex-direction: row;
+  }
+  .titleBook{
+    margin: 12px;
+  }
+
+}
